@@ -1,4 +1,4 @@
-# RAG System with LangChain and LangServe
+# RAG System with LangChain and FastAPI
 
 ## 아키텍처 요약
 
