@@ -2,7 +2,7 @@
 
 ## 아키텍처 요약
 
-본 프로젝트는 GPT-4와 LangChain/LangServe를 활용한 RAG(Retrieval Augmented Generation) 시스템입니다.
+본 프로젝트는 GPT-4와 LangChain/FastAPI를 활용한 RAG(Retrieval Augmented Generation) 시스템입니다.
 
 ### 주요 구성 요소
 - **데이터 처리**: 문서 로딩, 클렌징, 청킹
@@ -10,7 +10,7 @@
 - **벡터 저장소**: FAISS/Chroma를 활용한 유사도 검색
 - **QA 생성**: GPT-4를 활용한 자동 질문-답변 생성
 - **RAG 엔진**: 컨텍스트 기반 답변 생성
-- **API 서버**: LangServe/FastAPI 기반 RESTful API
+- **API 서버**: FastAPI 기반 RESTful API
 
 ## 설치 및 설정
 
